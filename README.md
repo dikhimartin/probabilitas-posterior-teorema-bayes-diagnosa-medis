@@ -1,18 +1,23 @@
-Tugas Pribadi 2 part 1 - Studi kasus dalam sebuah klinik medis  
-==================
+# Diagnosa Penyakit Menggunakan Teorema Bayes
 
-Dalam sebuah klinik medis, seorang dokter ingin menggunakan Teorema Bayes untuk membantu dalam mendiagnosa penyakit tertentu. Dokter tersebut memiliki beberapa informasi dasar sebagai berikut:
+Seorang dokter di sebuah klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosa penyakit tertentu. Dokter tersebut memiliki informasi dasar sebagai berikut:
 
 1. Tingkat keparahan penyakit pada populasi umum adalah 1%.
-2. Tes laboratorium yang tersedia memiliki tingkat kesalahan positif palsu sebesar 5% (tes positif pada individu sehat) dan tingkat kesalahan negatif palsu sebesar 2% (tes negatif pada individu yang sakit).
-3. Pasien datang dengan gejala tertentu yang dapat dikaitkan dengan penyakit ini. Tetapi, gejala tersebut dapat terjadi pada orang sehat juga.
-4. Dokter ingin menghitung probabilitas bahwa seorang pasien yang mendapat tes positif pada tes laboratorium juga benar-benar memiliki penyakit tersebut.
+2. Tes laboratorium memiliki tingkat kesalahan positif palsu 5% dan kesalahan negatif palsu 2%.
+3. Pasien datang dengan gejala yang terjadi pada orang sehat juga.
+4. Dokter ingin menghitung probabilitas bahwa pasien yang mendapat tes positif juga memiliki penyakit tersebut.
 
-Berdasarkan informasi yang diberikan, hitung probabilitas prior (prior probability) bahwa seorang pasien yang datang ke klinik tersebut benar-benar memiliki penyakit ini.
+**Pertanyaan:**
+1. Apa probabilitas prior bahwa pasien memiliki penyakit?
+2. Berapa probabilitas posterior bahwa pasien yang mendapat tes positif benar-benar memiliki penyakit?
 
-Gunakan Teorema Bayes untuk menghitung probabilitas posterior (posterior probability) bahwa seorang pasien yang mendapat tes positif pada tes laboratorium juga benar-benar memiliki penyakit ini.
+**Langkah-langkah:**
+1. Tentukan probabilitas prior.
+2. Hitung probabilitas tes positif pada individu yang sakit dan sehat.
+3. Hitung probabilitas tes positif secara keseluruhan.
+4. Gunakan Teorema Bayes untuk menghitung probabilitas posterior.
 
-Apa arti dari hasil probabilitas posterior ini dalam konteks medis? Bagaimana informasi ini dapat membantu dokter dalam proses diagnosa penyakit?
+Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
 
 
 Memulai
