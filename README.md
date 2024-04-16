@@ -1,26 +1,73 @@
-# Diagnosa Penyakit Menggunakan Teorema Bayes
+## Diagnosa Penyakit Menggunakan Teorema Bayes
 
-Seorang dokter di sebuah klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosa penyakit tertentu. Dokter tersebut memiliki informasi dasar sebagai berikut:
+### Pendahuluan
 
-1. Tingkat keparahan penyakit pada populasi umum adalah `1%`.
-2. Tes laboratorium memiliki tingkat kesalahan positif palsu `5%` dan kesalahan negatif palsu `2%`.
+Seorang dokter di klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosis penyakit tertentu. Dokter tersebut memiliki informasi dasar sebagai berikut:
+
+1. Tingkat keparahan penyakit pada populasi umum adalah **1%**.
+2. Tes laboratorium memiliki tingkat kesalahan positif palsu **5%** dan kesalahan negatif palsu **2%**.
 3. Pasien datang dengan gejala yang terjadi pada orang sehat juga.
 4. Dokter ingin menghitung probabilitas bahwa pasien yang mendapat tes positif juga memiliki penyakit tersebut.
 
-**Pertanyaan:**
-1. Apa probabilitas prior bahwa pasien memiliki penyakit?
-2. Berapa probabilitas posterior bahwa pasien yang mendapat tes positif benar-benar memiliki penyakit?
+### Langkah-langkah
 
-**Langkah-langkah:**
-1. Tentukan probabilitas prior.
-2. Hitung probabilitas tes positif pada individu yang sakit dan sehat.
-3. Hitung probabilitas tes positif secara keseluruhan.
-4. Gunakan Teorema Bayes untuk menghitung probabilitas posterior.
+1. **Menentukan Probabilitas Prior:** Probabilitas prior adalah probabilitas awal bahwa pasien memiliki penyakit sebelum hasil tes dilakukan. Dalam kasus ini, probabilitas prior adalah **1%**.
+
+   $$P(\text{penyakit}) = 0.01$$
+
+   
+
+2. Menghitung Probabilitas Posterior:
+
+   Probabilitas posterior dihitung menggunakan Teorema Bayes.
+
+   - **Probabilitas Tes Positif pada Individu Sakit:** 
+
+     $$P(\text{positif}|\text{sakit}) = 1 - \text{tingkat kesalahan negatif palsu}$$
+
+     Probabilitas tes positif pada individu yang benar-benar sakit adalah **98%**.
+
+     
+
+   - **Probabilitas Tes Negatif pada Individu Sehat:** 
+
+     $$P(\text{negatif}|\text{sehat}) = 1 - \text{tingkat kesalahan positif palsu}$$
+
+     Probabilitas tes negatif pada individu yang tidak sakit adalah **95%**.
+
+     
+
+   - **Probabilitas Tes Positif Secara Keseluruhan:** Probabilitas tes positif secara keseluruhan dihitung dengan hukum total probabilitas, 
+
+     $$P(\text{positif}) = P(\text{positif}|\text{sakit}) \times P(\text{sakit}) + P(\text{positif}|\text{sehat}) \times P(\text{sehat})$$
+
+     dan didapatkan **0.0593**.
+
+     
+   
+   - **Menggunakan Teorema Bayes:** 
+   
+     $$P(H|X) = \frac{{P(X | H) \times P(H)}}{{P(X)}}$$
+
+     Di mana:
+     
+     - $$P(H|X)$$ adalah probabilitas posterior dari hipotesis \( H \) setelah diberikan data \( X \).
+     - $$P(X | H)$$ adalah probabilitas likelihood dari data \( X \) jika hipotesis \( H \) benar.
+     - $$P(H)$$ adalah probabilitas prior dari hipotesis \( H \).
+     - $$P(X)$$ adalah probabilitas dari data \( X \) secara keseluruhan.
+     
+     Rumus ini digunakan untuk memperbarui probabilitas prior dengan informasi baru yang diberikan oleh data, sehingga menghasilkan probabilitas posterior yang diperbarui.
+     
+     Dengan menggunakan rumus Teorema Bayes, probabilitas posterior dihitung dan didapatkan **0.16526**.
+
+### Kesimpulan
+
+Probabilitas posterior **16.526%** menunjukkan bahwa ada kemungkinan **16.526%** pasien yang mendapat tes positif benar-benar memiliki penyakit tersebut. Informasi ini membantu dokter dalam mendiagnosis penyakit dengan memberikan panduan tambahan dalam menetapkan diagnosis dan memilih langkah-langkah pengobatan yang sesuai. Semakin tinggi probabilitas posterior, semakin besar kemungkinan pasien memiliki penyakit tersebut, dan dokter mungkin perlu melakukan lebih banyak tes atau pengamatan untuk mengonfirmasi diagnosis.
 
 Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
 https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis/blob/master/Menghitung_Probabilitas_Posterior_Menggunakan_Teorema_Bayes.ipynb
 
-Memulai
+Cara menjalankan : 
 ---------------
 Saya merekomendasikan penggunaan Visual Studio Code untuk mengakses file `.ipynb`. karena sudah dilengkapi dengan Jupyter notebook dan terminal. Namun, jika Anda lebih suka menggunakan terminal + server jupyterlab, juga di perbolehkan. Silakan ikuti langkah-langkah berikut untuk menyiapkan envinronment agar dapat menjalankan file:
 
@@ -50,8 +97,11 @@ Catatan :
 
      $ conda deactivate    
 
+
+
 Referensi
 --------
+
 Muehlemann, N., Zhou, T., Mukherjee, R., Hossain, M. I., Roychoudhury, S., & Russek-Cohen, E. (2023). A Tutorial on Modern Bayesian Methods in Clinical Trials. *Therapeutic Innovation and Regulatory Science*, *57*(3), 402–416. https://doi.org/10.1007/s43441-023-00515-3
 
 Verma, V., Mishra, A. K., & Narang, R. (2019). Application of Bayesian analysis in medical diagnosis. *Journal of the Practice of Cardiovascular Sciences*, *5*(3), 136. https://doi.org/10.4103/jpcs.jpcs_51_19
