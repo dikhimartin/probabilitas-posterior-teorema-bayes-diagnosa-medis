@@ -2,8 +2,8 @@
 
 Seorang dokter di sebuah klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosa penyakit tertentu. Dokter tersebut memiliki informasi dasar sebagai berikut:
 
-1. Tingkat keparahan penyakit pada populasi umum adalah 1%.
-2. Tes laboratorium memiliki tingkat kesalahan positif palsu 5% dan kesalahan negatif palsu 2%.
+1. Tingkat keparahan penyakit pada populasi umum adalah `1%`.
+2. Tes laboratorium memiliki tingkat kesalahan positif palsu `5%` dan kesalahan negatif palsu `2%`.
 3. Pasien datang dengan gejala yang terjadi pada orang sehat juga.
 4. Dokter ingin menghitung probabilitas bahwa pasien yang mendapat tes positif juga memiliki penyakit tersebut.
 
