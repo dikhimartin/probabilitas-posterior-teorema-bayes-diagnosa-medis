@@ -62,6 +62,8 @@ Seorang dokter di klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosi
 
 Probabilitas posterior **16.526%** menunjukkan bahwa ada kemungkinan **16.526%** pasien yang mendapat tes positif benar-benar memiliki penyakit tersebut. Informasi ini membantu dokter dalam mendiagnosis penyakit dengan memberikan panduan tambahan dalam menetapkan diagnosis dan memilih langkah-langkah pengobatan yang sesuai. Semakin tinggi probabilitas posterior, semakin besar kemungkinan pasien memiliki penyakit tersebut, dan dokter mungkin perlu melakukan lebih banyak tes atau pengamatan untuk mengonfirmasi diagnosis.
 
+Hasil probabilitas posterior ini sangat penting dalam konteks medis karena memberikan perkiraan yang lebih akurat tentang kemungkinan seorang pasien menderita penyakit tertentu setelah hasil tes laboratorium. Informasi ini membantu dokter dalam proses diagnosa penyakit dengan memberikan panduan tambahan selain hanya hasil tes itu sendiri. Dengan memperhitungkan probabilitas posterior, dokter dapat membuat keputusan yang lebih tepat tentang tindakan medis yang diperlukan, seperti mengirim pasien untuk lebih banyak tes atau memulai perawatan yang sesuai lebih awal. Ini mengoptimalkan penggunaan sumber daya kesehatan dan meningkatkan kesempatan untuk pengobatan yang berhasil.
+
 ### Jupyter Notebook 
 
 Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
