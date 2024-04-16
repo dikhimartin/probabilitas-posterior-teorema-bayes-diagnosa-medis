@@ -51,10 +51,10 @@ Seorang dokter di klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosi
 
      Di mana:
      
-     - $$P(H|X)$$ adalah probabilitas posterior dari hipotesis \( H \) setelah diberikan data \( X \).
-     - $$P(X | H)$$ adalah probabilitas likelihood dari data \( X \) jika hipotesis \( H \) benar.
-     - $$P(H)$$ adalah probabilitas prior dari hipotesis \( H \).
-     - $$P(X)$$ adalah probabilitas dari data \( X \) secara keseluruhan.
+     - `P(H|X)` adalah probabilitas posterior dari hipotesis \( H \) setelah diberikan data \( X \).
+     - `P(X | H)` adalah probabilitas likelihood dari data \( X \) jika hipotesis \( H \) benar.
+     - `P(H)` adalah probabilitas prior dari hipotesis \( H \).
+     - `P(X)` adalah probabilitas dari data \( X \) secara keseluruhan.
      
      Rumus ini digunakan untuk memperbarui probabilitas prior dengan informasi baru yang diberikan oleh data, sehingga menghasilkan probabilitas posterior yang diperbarui.
      
