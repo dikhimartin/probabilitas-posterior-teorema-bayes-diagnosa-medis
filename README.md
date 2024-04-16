@@ -18,7 +18,7 @@ Seorang dokter di sebuah klinik medis ingin menggunakan Teorema Bayes untuk mend
 4. Gunakan Teorema Bayes untuk menghitung probabilitas posterior.
 
 Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
-
+https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis/blob/master/Menghitung_Probabilitas_Posterior_Menggunakan_Teorema_Bayes.ipynb
 
 Memulai
 ---------------
