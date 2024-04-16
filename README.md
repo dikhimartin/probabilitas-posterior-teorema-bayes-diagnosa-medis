@@ -28,8 +28,8 @@ Mulailah dengan menginstal [Anaconda](https://www.anaconda.com/products/distribu
 
 Selanjutnya, clone repositori ini dengan membuka terminal dan mengetikkan perintah berikut (jangan ketik tanda $ pertama pada setiap baris, itu hanya menunjukkan bahwa ini adalah perintah terminal):
 
-    $ git clone https://github.com/dikhimartin/binus-tk-3-data-science.git
-    $ cd binus-tk-3-data-science
+    $ git clone https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis
+    $ cd probabilitas-posterior-teorema-bayes-diagnosa-medis
 
 Selanjutnya, jalankan perintah-perintah berikut:
 
