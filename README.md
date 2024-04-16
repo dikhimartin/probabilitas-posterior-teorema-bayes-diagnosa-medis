@@ -52,4 +52,10 @@ Catatan :
 
 Referensi
 --------
-* [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (3rd edition)](https://homl.info/er3)
+Muehlemann, N., Zhou, T., Mukherjee, R., Hossain, M. I., Roychoudhury, S., & Russek-Cohen, E. (2023). A Tutorial on Modern Bayesian Methods in Clinical Trials. *Therapeutic Innovation and Regulatory Science*, *57*(3), 402–416. https://doi.org/10.1007/s43441-023-00515-3
+
+Verma, V., Mishra, A. K., & Narang, R. (2019). Application of Bayesian analysis in medical diagnosis. *Journal of the Practice of Cardiovascular Sciences*, *5*(3), 136. https://doi.org/10.4103/jpcs.jpcs_51_19
+
+*Conditional probability with Bayes’ Theorem*. (n.d.). [Video]. Khan Academy. https://www.khanacademy.org/math/ap-statistics/probability-ap/stats-conditional-probability/v/bayes-theorem-visualized
+
+Kelik, A., Dan, N., & Wardoyo, R. (2013). Sistem Pakar Menggunakan Teorema Bayes untuk Mendiagnosa Penyakit Kehamilan Expert System using Bayesian Theorem to Diagnose Pregnancy Diseases. In *Berkala MIPA* (Vol. 23, Issue 3). https://media.neliti.com/media/publications/241866-sistem-pakar-menggunakan-teorema-bayes-u-d0cb123a.pdf
