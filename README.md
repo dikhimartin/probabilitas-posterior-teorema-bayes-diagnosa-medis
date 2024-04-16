@@ -23,32 +23,30 @@ Seorang dokter di klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosi
 
    - **Probabilitas Tes Positif pada Individu Sakit:** 
 
-     $$P(\text{positif}|\text{sakit}) = 1 - \text{tingkat kesalahan negatif palsu}$$
-
      Probabilitas tes positif pada individu yang benar-benar sakit adalah **98%**.
+
+     $$P(\text{positif}|\text{sakit}) = 1 - \text{tingkat kesalahan negatif palsu}$$
 
      
 
    - **Probabilitas Tes Negatif pada Individu Sehat:** 
 
-     $$P(\text{negatif}|\text{sehat}) = 1 - \text{tingkat kesalahan positif palsu}$$
-
      Probabilitas tes negatif pada individu yang tidak sakit adalah **95%**.
+
+     $$P(\text{negatif}|\text{sehat}) = 1 - \text{tingkat kesalahan positif palsu}$$
 
      
 
-   - **Probabilitas Tes Positif Secara Keseluruhan:** Probabilitas tes positif secara keseluruhan dihitung dengan hukum total probabilitas, 
+   - **Probabilitas Tes Positif Secara Keseluruhan:** Probabilitas tes positif secara keseluruhan dihitung dengan hukum total probabilitas, dan didapatkan **0.0593**.
 
      $$P(\text{positif}) = P(\text{positif}|\text{sakit}) \times P(\text{sakit}) + P(\text{positif}|\text{sehat}) \times P(\text{sehat})$$
 
-     dan didapatkan **0.0593**.
-
      
-   
+
    - **Menggunakan Teorema Bayes:** 
    
      $$P(H|X) = \frac{{P(X | H) \times P(H)}}{{P(X)}}$$
-
+   
      Di mana:
      
      - `P(H|X)` adalah probabilitas posterior dari hipotesis \( H \) setelah diberikan data \( X \).
@@ -64,10 +62,12 @@ Seorang dokter di klinik medis ingin menggunakan Teorema Bayes untuk mendiagnosi
 
 Probabilitas posterior **16.526%** menunjukkan bahwa ada kemungkinan **16.526%** pasien yang mendapat tes positif benar-benar memiliki penyakit tersebut. Informasi ini membantu dokter dalam mendiagnosis penyakit dengan memberikan panduan tambahan dalam menetapkan diagnosis dan memilih langkah-langkah pengobatan yang sesuai. Semakin tinggi probabilitas posterior, semakin besar kemungkinan pasien memiliki penyakit tersebut, dan dokter mungkin perlu melakukan lebih banyak tes atau pengamatan untuk mengonfirmasi diagnosis.
 
+### Jupyter Notebook 
+
 Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
 https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis/blob/master/Menghitung_Probabilitas_Posterior_Menggunakan_Teorema_Bayes.ipynb
 
-Cara menjalankan : 
+Cara menjalankan 
 ---------------
 Saya merekomendasikan penggunaan Visual Studio Code untuk mengakses file `.ipynb`. karena sudah dilengkapi dengan Jupyter notebook dan terminal. Namun, jika Anda lebih suka menggunakan terminal + server jupyterlab, juga di perbolehkan. Silakan ikuti langkah-langkah berikut untuk menyiapkan envinronment agar dapat menjalankan file:
 
