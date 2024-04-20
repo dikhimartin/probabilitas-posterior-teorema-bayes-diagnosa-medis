@@ -67,7 +67,7 @@ Hasil probabilitas posterior ini sangat penting dalam konteks medis karena membe
 ### Jupyter Notebook 
 
 Kunjungi notebook interaktif berikut untuk solusi dan penjelasan lebih lanjut!
-https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis/blob/master/Menghitung_Probabilitas_Posterior_Menggunakan_Teorema_Bayes.ipynb
+https://github.com/dikhimartin/probabilitas-posterior-teorema-bayes-diagnosa-medis/blob/master/main.ipynb
 
 Cara menjalankan 
 ---------------
